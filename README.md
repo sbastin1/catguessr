@@ -18,6 +18,5 @@ A geoguessr cheat that opens an OpenStreetMap iframe in the devtools, pinpointin
    4. Start a game an enjoy.
    5. (Optionally) Press the 3 Dots in the very top right, under `Dock Side` select the `Undock` Icon to turn the Devtools into a seperate window you can move around and put on your second monitor.
 
-## Known Issues
-- In the Moving Gamemode, the OpenStreetMap currently always refreshes each time you move. <br>
-_Doesn't really impact gameplay but can be visually annoying sometimes._
+## Fallback
+- If OpenStreetMap fails to load because of whatever reason, the latitude & longtidute will be logged in the console, allowing a manual lookup in google maps.
